@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
 import "./App.css";
-import appImage from "./assets/UI.JPG";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -20,11 +20,14 @@ function App() {
         Download for Windows
       </a>
       <img
-        src={appImage}
+        src="/UI.JPG"
         alt="UI of Video Comparison app"
         className="app-image"
       />
       <footer>Built with ❤️ using Electron</footer>
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }

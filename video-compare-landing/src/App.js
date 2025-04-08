@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <div className="App">
-      <h1>VideoCompare</h1>
+      <h1>Video Compare</h1>
       <p>
         Compare two videos side-by-side with ease. A fast, simple desktop app
         for side-by-side visual analysis.

@@ -234,7 +234,7 @@ body, html, #root {
 
 .app-screenshot {
   width: 100%;
-  max-width: 32rem;
+  max-width: 500rem;
   height: auto;
   border-radius: 0.75rem;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);

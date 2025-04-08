@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VideoCompare - Compare Videos Easily</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #1e1e2f, #3b3b58);
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 500px;
+      margin-bottom: 2rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #00b894;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #019875;
+    }
+
+    .app-image {
+        max-width: 54%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-top: 1rem;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.8rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>VideoCompare</h1>
+  <p>Compare two videos side-by-side with ease. A fast, simple desktop app for side-by-side visual analysis.</p>
+  <a href="https://github.com/your-username/your-repo/releases/latest" class="button" target="_blank">Download for Windows</a>
+  <img src="images/UI.JPG" alt="UI of Video Comparison app" class="app-image">
+  <footer>Built with ❤️ using Electron</footer>
+</body>
+</html>

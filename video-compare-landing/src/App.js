@@ -22,7 +22,7 @@ function App() {
       </a>
       <img
         src="/UI.JPG"
-        alt="UI of Video Comparison app"
+        alt="UI of VideoComparison app showing side-by-side comparison"
         className="app-image"
       />
       <footer>Built with ❤️ using Electron</footer>

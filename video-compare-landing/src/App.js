@@ -14,6 +14,16 @@ function App() {
     "Easy video import",
   ];
 
+  const handleDownloadClick = () => {
+    // Google Analytics event
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "download", {
+        event_category: "engagement",
+        event_label: "Windows Installer",
+      });
+    }
+  };
+
   return (
     <div className="app-container">
       {/* Header */}
@@ -65,6 +75,7 @@ function App() {
                 className="download-button"
                 target="_blank"
                 rel="noreferrer"
+                onClick={handleDownloadClick}
               >
                 <span className="download-icon">
                   <svg

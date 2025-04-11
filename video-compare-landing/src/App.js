@@ -14,9 +14,7 @@ function App() {
     "Easy video import",
   ];
 
-  const handleButtonClick = () => {
-    // your button logic here
-
+  const handleDownloadClick = () => {
     if (typeof window.gtag === "function") {
       window.gtag("event", "click", {
         event_category: "Button",

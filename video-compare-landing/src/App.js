@@ -14,12 +14,13 @@ function App() {
     "Easy video import",
   ];
 
-  const handleDownloadClick = () => {
-    // Google Analytics event
+  const handleButtonClick = () => {
+    // your button logic here
+
     if (typeof window.gtag === "function") {
-      window.gtag("event", "download", {
-        event_category: "engagement",
-        event_label: "Windows Installer",
+      window.gtag("event", "click", {
+        event_category: "Button",
+        event_label: "Compare Videos Button",
       });
     }
   };

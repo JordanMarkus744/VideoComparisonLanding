@@ -15,7 +15,9 @@ function App() {
   ];
 
   const handleDownloadClick = () => {
+    console.log("we're in the handleDownloadClick function!");
     if (typeof window.gtag === "function") {
+      console.log("in the if statement!");
       window.gtag("event", "click", {
         event_category: "Button",
         event_label: "Compare Videos Button",
